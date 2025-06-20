@@ -26,8 +26,8 @@ def test_email(request):
         send_mail(
             subject='Test Email',
             message='This is a test email from Django.',
-            from_email='isiri1320@gmail.com',
-            recipient_list=['isiri132007@gmail.com'],
+            from_email='YOUR_EMAIL@gmail.com',
+            recipient_list=['ANOTHER_EMAIL@gmail.com'],
             fail_silently=False
         )
         return Response({"message": "Email sent successfully."})
