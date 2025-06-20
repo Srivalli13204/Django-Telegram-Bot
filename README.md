@@ -22,8 +22,8 @@ cd <Django-Telegram-Bot>
 2. **Create a Virtual Environment**
 
 ```bash
-python -m venv venv
-venv\Scripts\activate
+python -m venv Django
+Django\Scripts\activate
 ```
 
 3. **Install Dependencies**
