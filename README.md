@@ -15,8 +15,8 @@ This is a Django-based backend project demonstrating:
 1. **Clone the Repository**
 
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/<Srivalli13204>/<Django-Telegram-Bot>.git
+cd <Django-Telegram-Bot>
 ```
 
 2. **Create a Virtual Environment**
