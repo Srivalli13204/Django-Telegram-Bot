@@ -1,7 +1,10 @@
-# Django Telegram Bot Assignment
+# Django Telegram Bot
 
-This is a Django-based backend project demonstrating:
+This is a Django-based backend assignment demonstrating API development, authentication, Celery task queue integration, and Telegram bot integration.
 
+---
+
+## 🚀 Features
 - Django REST Framework (DRF)
 - Token Authentication
 - Celery with Redis
@@ -96,15 +99,40 @@ python manage.py runserver
 ## 🤖 Telegram Bot
 
 - Start your bot by messaging /start
-- Your Telegram username will be saved to the database
+- The bot collects your Telegram username
+- Data is saved to the TelegramUser model
 
-## 📦 Features
+## 📧 Email ( Celery )
+- When a user registers, a welcome email is sent via Celery
+- Make sure your email credentials are set in .env
 
-- DRF + Token Authentication
-- Login view
-- Celery async email after registration
-- Telegram bot integration
-- Clean and modular code structure
+---
+
+## ✅ Tech Stack
+- Python
+- Django
+- Django REST Framework
+- Celery + Redis
+- Telegram Bot API
+
+---
+
+## 📂 Folder Structure
+django-project/
+
+├── core/                  # Your app
+
+├── telegram_bot.py        # Bot logic
+
+├── manage.py
+
+├── .env.example
+
+├── requirements.txt
+
+└── README.md
+
+---
 
 ## 👤 Author
 - Developed by Pichika Parimala Durga Srivalli as part of an assignment.
