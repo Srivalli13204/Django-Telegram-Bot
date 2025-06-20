@@ -70,7 +70,7 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     )
 
 async def main():
-    bot_token = "7166121610:AAEzVechL56PH2Bjd2_QwR0j8MD8JpWgT4s"  # Replace with your bot token
+    bot_token = "REPLACE WITH YOUR BOT TOKEN"
     app = ApplicationBuilder().token(bot_token).build()
 
     app.add_handler(CommandHandler("start", start))
