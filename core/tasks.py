@@ -6,7 +6,7 @@ def send_welcome_email(email):
     send_mail(
         'Welcome!',
         'Thanks for registering!',
-        'fisiri1320@gmail.com',
+        'YOUR_EMAIL@gmail.com',
         [email],
         fail_silently=False,
     )
