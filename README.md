@@ -138,15 +138,18 @@ django-project/
 
 ### 🌐 Public API
 Accessed via /api/public/ — returns a simple public message.
+
 <img src="https://github.com/user-attachments/assets/ac8369ba-7301-4bad-8966-6cb5f3db0c20" alt="Public API" width="600"/>
 
 ### 📤 Sending Email
 API endpoint to send a test email using Celery.
+
 <img src="https://github.com/user-attachments/assets/5751ba2b-099e-4863-8c61-cb152576c262" alt="Sending Email" width="600" height="375"/>
 
 ### 🔁 Redis Server Running
 Redis is set up as the Celery broker and ready to handle tasks.
-<img src="https://github.com/user-attachments/assets/2dc44d13-0dcf-4e60-b1a1-18077779688f" alt="Redis server" width="600" height="525"/>
+
+<img src="https://github.com/user-attachments/assets/2dc44d13-0dcf-4e60-b1a1-18077779688f" alt="Redis server" width="600" height="325"/>
 
 ### ✅ Celery Task Success
 Displays the success message after the email is queued and sent.
