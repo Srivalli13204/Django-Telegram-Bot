@@ -142,19 +142,19 @@ Accessed via /api/public/ — returns a simple public message.
 
 ### 📤 Sending Email
 API endpoint to send a test email using Celery.
-<img src="https://github.com/user-attachments/assets/5751ba2b-099e-4863-8c61-cb152576c262" alt="Sending Email" width="600" height="400"/>
+<img src="https://github.com/user-attachments/assets/5751ba2b-099e-4863-8c61-cb152576c262" alt="Sending Email" width="600" height="375"/>
 
 ### 🔁 Redis Server Running
 Redis is set up as the Celery broker and ready to handle tasks.
-<img src="https://github.com/user-attachments/assets/2dc44d13-0dcf-4e60-b1a1-18077779688f" alt="Redis server" width="600"/>
+<img src="https://github.com/user-attachments/assets/2dc44d13-0dcf-4e60-b1a1-18077779688f" alt="Redis server" width="600" height="525"/>
 
 ### ✅ Celery Task Success
 Displays the success message after the email is queued and sent.
-<img src="https://github.com/user-attachments/assets/9bf22799-9684-40d8-9006-73df4b209b0d" alt="success" width="600"/>
+<img src="https://github.com/user-attachments/assets/9bf22799-9684-40d8-9006-73df4b209b0d" alt="success" width="600" height="275"/>
 
 ### ✉️ Mail Sent (Gmail Preview)
 Confirms the user has received a test email.
-<img src="https://github.com/user-attachments/assets/23aec2d0-0da6-47ed-9bc4-fc500ee4210d" alt="Mail sent" width="600/>
+<img src="https://github.com/user-attachments/assets/23aec2d0-0da6-47ed-9bc4-fc500ee4210d" alt="Mail sent" width="600" height="375"/>
 
 ### 🤖 Telegram Bot Integration
 Shows /start, /profile, and /help commands in action for user registration and info.
