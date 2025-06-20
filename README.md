@@ -138,7 +138,7 @@ django-project/
 
 ### 🌐 Public API
 Accessed via /api/public/ — returns a simple public message.
-<img src="![Public API](https://github.com/user-attachments/assets/ac8369ba-7301-4bad-8966-6cb5f3db0c20)" alt="Public API" width="600"/>
+<img src="https://github.com/user-attachments/assets/ac8369ba-7301-4bad-8966-6cb5f3db0c20" alt="Public API" width="600"/>
 
 ### 📤 Sending Email
 API endpoint to send a test email using Celery.![Sending Email](https://github.com/user-attachments/assets/5751ba2b-099e-4863-8c61-cb152576c262)
