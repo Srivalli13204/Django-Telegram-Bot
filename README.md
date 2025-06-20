@@ -142,7 +142,7 @@ Accessed via /api/public/ — returns a simple public message.
 
 ### 📤 Sending Email
 API endpoint to send a test email using Celery.
-<img src="https://github.com/user-attachments/assets/5751ba2b-099e-4863-8c61-cb152576c262" alt="Sending Email" width="600"/>
+<img src="https://github.com/user-attachments/assets/5751ba2b-099e-4863-8c61-cb152576c262" alt="Sending Email" width="600" height="300"/>
 
 ### 🔁 Redis Server Running
 Redis is set up as the Celery broker and ready to handle tasks.
