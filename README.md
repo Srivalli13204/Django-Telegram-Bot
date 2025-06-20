@@ -134,5 +134,27 @@ django-project/
 
 ---
 
+## 📸 Screenshots
+
+### 🌐 Public API
+Accessed via /api/public/ — returns a simple public message.![Public API](https://github.com/user-attachments/assets/ac8369ba-7301-4bad-8966-6cb5f3db0c20)
+
+### 📤 Sending Email
+API endpoint to send a test email using Celery.![Sending Email](https://github.com/user-attachments/assets/5751ba2b-099e-4863-8c61-cb152576c262)
+
+### 🔁 Redis Server Running
+Redis is set up as the Celery broker and ready to handle tasks.![Redis Server](https://github.com/user-attachments/assets/2dc44d13-0dcf-4e60-b1a1-18077779688f)
+
+### ✅ Celery Task Success
+Displays the success message after the email is queued and sent.![Success](https://github.com/user-attachments/assets/9bf22799-9684-40d8-9006-73df4b209b0d)
+
+### ✉️ Mail Sent (Gmail Preview)
+Confirms the user has received a test email.![Mail sent](https://github.com/user-attachments/assets/23aec2d0-0da6-47ed-9bc4-fc500ee4210d)
+
+### 🤖 Telegram Bot Integration
+Shows /start, /profile, and /help commands in action for user registration and info.![Telegram Bot](https://github.com/user-attachments/assets/b10fb70e-b3bf-4030-be87-87a0f2727dc4)
+
+---
+
 ## 👤 Author
 - Developed by Pichika Parimala Durga Srivalli as part of an assignment.
